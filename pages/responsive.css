@@ -1,0 +1,85 @@
+@media(max-width:1100px){
+    .birlik{
+        height: auto;
+    }
+    .navbar_ul{
+        display: none;
+    }
+    .menu{
+        display: inline-block;
+        padding: 5px;
+        background: var(--white--py);
+        border: none;
+        border-radius:  5px;
+        color: var(--bg--py);
+    }
+    .ikki{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+    .azs{
+        display: none;
+    }
+    .salm{
+        display: flex;
+        flex-wrap: wrap;
+        align-items:center;
+        justify-content: center;
+
+    }
+    .nothing{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .nothing_txt{
+        margin-top: 30px;
+    }
+    .dex{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
+@media(max-width: 700px){
+    .container{
+        padding: 15px 10px;
+    }
+    .navbar{
+        padding: 0 5px;
+    }
+    .ikki_h1{
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .images{
+        max-width: 320px;
+        
+    }
+    .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        flex-direction:column ;
+    }
+    .level2{
+        padding: 20px;
+        overflow: hidden;
+    }
+    .text{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .asdfghjkl{
+        width: 320px;
+    }
+}
